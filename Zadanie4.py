@@ -48,11 +48,82 @@ def generate_vector(i):
 print((generate_vector(g)))
 print('\n') '''
 
-#Zadanie 6
-print("Zadanie 6")
+#Zad6
+# malina = np.array(list('malina'))
+# mrowka = np.array(list('mrówka'))
+# armata = np.array(list('armata'))
+# #armata = np.flip(armata)
+#
+# wykreslanka = np.zeros((6,6), dtype='str')
+#
+# print(wykreslanka)
+#
+# wykreslanka = np.diag(mrowka)
+# wykreslanka[:, 0] = malina
+# wykreslanka[5,::-1] = armata
+# #wykreslanka[5,:] = armata
+# print(wykreslanka)
+# print("")
+# # wykreslanka[:, 0] = mrowka
+# # wykreslanka[5,::-1] = armata
+# # for a in range(5):
+# #     wykreslanka[a,a] = malina[a]
+# # print(wykreslanka)
 
-c = 'krzysiu'
-v = 'krawczyk'
-b = 'kajak'
+#zad7
+# def zad7(n):
+#     mat = np.diag([2 for _ in range(n)])
+#     for indeks in range(1, n):
+#         vec = [2+(2*indeks) for _ in range(n-indeks)]
+#         mat += np.diag(vec, indeks)
+#         mat += np.diag(vec, -indeks)
+#     print(mat)
+#
+# zad7(3)
+#zad7(3)
+# def zad8(tab, kierunek='poziomo'):
+#     print(tab)
+#     if kierunek == 'poziomo':
+#         # nieparzysta liczba wierszy
+#         if tab.shape[0] % 2 != 0:
+#             print("Tablica posiada nieprzystą liczbę wierszy")
+#             return
+#         p1 = tab[0:int(tab.shape[0]/2), :]
+#         p2 = tab[int(tab.shape[0]/2):, :]
+#         print("***** część 1 *****")
+#         print(p1)
+#         print("***** część 2 *****")
+#         print(p2)
+#     elif kierunek == "pionowo":
+#         if tab.shape[1] % 2 != 0:
+#             print("Tablica posiada nieprzystą liczbę kolumn")
+#             return
+#         p1 = tab[:, 0:int(tab.shape[1]/2)]
+#         p2 = tab[:, int(tab.shape[1] / 2):]
+#         print("***** część 1 *****")
+#         print(p1)
+#         print("***** część 2 *****")
+#         print(p2)
+#
+# zad8(np.arange(36).reshape((6,6)), kierunek='pionowo')
+#zad9
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fibonacci(n-1)+fibonacci(n-2)
+#
+#
+# macierz = np.arange(25).reshape((5,5))
+# n = 1
+# print(macierz)
+# for a in range(5):
+#     for b in range(5):
+#         fibonaci = fibonacci(n)
+#         macierz[a][b] = fibonaci
+#         n += 1
+#
+# print(macierz)
 
-# Brak czasu na wykonanie pozostałych zadań. Pracuje po ok 12h dziennie
