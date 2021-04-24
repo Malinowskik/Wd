@@ -1,10 +1,12 @@
+# Napisane przez p. mgr R. Cybulskiego, przeanalizowałem zadania
 import pandas as pd
 import xlrd
 import openpy
 
 # zad1
 xlsx = pd.ExcelFile('imiona.xlsx')
-df = pd.read_excel(xlsx, header=0)
+df = pd.rea
+d_excel(xlsx, header=0)
 print(df)
 
 #zad2
