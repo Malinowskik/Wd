@@ -1,3 +1,4 @@
+# Napisane przez p. mgr R. Cybulskiego, przeanalizowałem zadania
 import numpy as np
 
 #Zad1
