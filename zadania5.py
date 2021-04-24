@@ -1,4 +1,4 @@
-# Napisane przez p. mgr R. Cybulskiego, przeanalizowałem zadania
+# Napisane przez p. mgr. inż. R. Cybulskiego, przeanalizowałem zadania
 import pandas as pd
 import xlrd
 import openpy
